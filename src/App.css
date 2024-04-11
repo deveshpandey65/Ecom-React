@@ -1,0 +1,77 @@
+.screen{
+  display: flex;
+  flex-direction: row;
+}
+.catblock{
+  display: flex;
+  flex-direction: column;
+  
+  width: 200px;
+  position: relative;
+  left: 0px;
+}
+.innercatblock{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  align-self: baseline;
+}
+.innercatblock h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+  border: 2px solid rgb(54, 201, 238);
+  box-shadow: 4px 4px 2px 2px rgb(75, 232, 243);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.box p{
+  margin: 0px;
+  padding: 0px;
+}
+.items{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  left: 40px;
+  width: 85%;
+  align-items: center;
+  
+}
+.itemsblock{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.itemsinnerblock{
+  width: 280px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(54, 201, 238);
+  box-shadow: 4px 4px 2px 2px rgb(75, 232, 243) ;
+  margin: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.itemsinnerblock img {
+  min-height: 70%;
+  min-width: 100%;
+  overflow: hidden;
+}
+.itemsinnerblock h2{
+  margin: 0px;
+  padding: 0px;
+}
